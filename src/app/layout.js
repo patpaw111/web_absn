@@ -44,15 +44,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="id">
       <body>
-        <div className="min-h-screen flex">
+        <div className="min-h-screen flex bg-white">
           {/* Sidebar hanya jika bukan di halaman login */}
           {pathname !== '/login' && <Sidebar onLogout={handleLogout} />}
           {/* Main content */}
-          <main className="flex-1 bg-gray-100 min-h-screen p-4">
-            {children}
+          <main className="flex-1 bg-white min-h-screen p-4 pl-64">
+        {children}
           </main>
         </div>
       </body>
     </html>
   )
-} 
+}

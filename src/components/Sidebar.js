@@ -15,7 +15,7 @@ const navigation = [
 export default function Sidebar({ onLogout }) {
   const pathname = usePathname()
   return (
-    <aside className="w-64 bg-gray-900 text-white border-r min-h-screen">
+    <aside className="w-64 bg-white text-gray-900 border-r fixed h-full top-0 left-0">
       <div className="p-4">
         <h1 className="text-xl font-bold mb-6">Admin Dashboard</h1>
         <nav className="space-y-2">

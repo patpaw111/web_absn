@@ -56,10 +56,10 @@ Sebelum menginstal, pastikan Anda memiliki:
      6. Salin "service_role" untuk `SUPABASE_SERVICE_ROLE_KEY`
 
 5. **Jalankan Aplikasi**
-   ```bash
-   npm run dev
+```bash
+npm run dev
    # atau
-   yarn dev
+yarn dev
    ```
 
 6. **Buka di Browser**
